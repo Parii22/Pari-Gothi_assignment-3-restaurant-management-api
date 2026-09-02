@@ -9,7 +9,7 @@ app.use(express.json());
 mongoose
   .connect(process.env.MONGO_URI)
   .then(() => {
-    console.log("MongoDB connected successfully");
+    console.log("MongoDB connected successfully!!!");
 
     app.listen(process.env.PORT, () => {
       console.log(`Server running on port ${process.env.PORT}`);
