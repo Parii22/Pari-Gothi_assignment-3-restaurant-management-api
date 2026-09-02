@@ -7,6 +7,7 @@ A Node.js + Express + MongoDB REST API for managing restaurants and restaurant m
 
 ## Project Overview
 Link: https://assignment-3-restaurant-management-api-vmtd.onrender.com
+
 This API allows users to:
 
 - Register a new user
